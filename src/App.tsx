@@ -8,6 +8,7 @@ import { Contador } from './Components/Contador';
 import { ContadorCustomHook } from './Components/ContadorCustomHook';
 import { ComponentUseEffect } from './Components/ComponentUseEffect';
 import { Login } from './Components/Login';
+import { Usuarios } from './Components/Usuarios';
 
 export const App = () => {
   return (
@@ -20,7 +21,8 @@ export const App = () => {
       {/* <Contador/> */}
       {/* <ContadorCustomHook/> */}
       {/* <ComponentUseEffect/> */}
-      <Login/>
+      {/* <Login/> */}
+      <Usuarios/>
     </div>
   )
 }
